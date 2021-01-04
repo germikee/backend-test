@@ -47,3 +47,9 @@ Run ``` php artisan route:list``` to list the available API routes.
 * Filter author ids e.g. `api/news?filter[author_id]=1`
 * Filter author's names e.g. `api/author?filter[first_name]=John&[last_name]=Doe`
 * The negative sign (-) sorts in descending order e.g. `api/news?sort=title,-is_published`
+
+
+##### To do #####
+* ~add test cases on CRUD rotues for both controllers~
+* add test cases for filter params
+* add test scenarios on invalid validations
